@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -pamv
+gcc $CFILE -o c
