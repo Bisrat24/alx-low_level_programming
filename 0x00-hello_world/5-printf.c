@@ -1,11 +1,11 @@
 #include <stdio.h>
-int main(void) {
+int main() {
    /**
  * *main - Program starts here
  *  *Return: Success
  * printf() displays the string inside quotation
  */
    
-   puts("\"Programming is like building a multilingual puzzle");
+   printf("with proper grammar, but the outcome is a piece of art,");
    return 0;
 }
