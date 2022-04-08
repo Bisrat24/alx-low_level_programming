@@ -11,6 +11,7 @@ int main(void)
     int y;
         for (x = '0'; x <= '9'; x++)
         {
+            y = '0';
             while (y <= '9')
             {
                 putchar(x);
