@@ -15,15 +15,14 @@ int main(void)
         {
             y = '0';
             while (y <= '9')
-            {
-                putchar(x);
-                putchar(y);
-                y++;
+            {             
                        for (a = '0'; a <= '9'; a++)
                         {
                             b = '0';
                             while (b <= '9')
                             {
+                                putchar(x);
+                                putchar(y);
                                 putchar(' ');
                                 putchar(a);
                                 putchar(b);
@@ -35,6 +34,7 @@ int main(void)
                                         }
                             }
                         }        
+                y++;
             }
         }
     putchar('\n');
