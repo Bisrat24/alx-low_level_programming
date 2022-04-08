@@ -21,11 +21,14 @@ int main(void)
                             b = '0';
                             while (b <= '9')
                             {
-                                putchar(x);
-                                putchar(y);
-                                putchar(' ');
-                                putchar(a);
-                                putchar(b);
+                                if(y!=b || x!=a)
+                                    {
+                                    putchar(x);
+                                    putchar(y);
+                                    putchar(' ');
+                                    putchar(a);
+                                    putchar(b);
+                                    }
                                 b++;
                                     if (y != '9' || a != '9' || b != '9')
                                         {
