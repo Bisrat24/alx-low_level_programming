@@ -12,7 +12,7 @@ char x;
 	{
 		if (x != 'e' && x != 'q')
 		{
-			putchar(c);
+			putchar(x);
 		}
 	}
 	putchar('\n');
