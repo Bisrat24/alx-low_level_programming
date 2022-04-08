@@ -9,8 +9,6 @@ int main(void)
 {
     int x;
     int y;
-    int a;
-    int b;
         for (x = '0'; x <= '9'; x++)
         {
             while (y <= '9')
