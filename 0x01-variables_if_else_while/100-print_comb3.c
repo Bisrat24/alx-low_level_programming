@@ -8,7 +8,11 @@
 int main(void)
 {
 int x;
+int y;
 for (x = '0'; x <= '8'; x++)
+{
+y=x+1;
+while (y<=9)
 {
 putchar(x);
 putchar(x+1);
@@ -16,6 +20,7 @@ if (x != '9')
 {
 putchar(',');
 putchar(' ');
+}
 }
 }
 putchar('\n');
