@@ -28,6 +28,11 @@ int main(void)
                                 putchar(a);
                                 putchar(b);
                                 b++;
+                                    if (y != '9' && a != '9' && b != '9')
+                                        {
+                                        putchar(',');
+                                        putchar(' ');
+                                        }
                             }
                         }        
             }
