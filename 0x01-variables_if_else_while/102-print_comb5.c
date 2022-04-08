@@ -17,7 +17,17 @@ int main(void)
                 putchar(x);
                 putchar(y);
                 y++;
-                           
+                       for (a = '0'; a <= '9'; a++)
+                        {
+                            b = '0';
+                            while (b <= '9')
+                            {
+                                putchar(' ');
+                                putchar(a);
+                                putchar(b);
+                                b++;
+                            }
+                        }        
             }
         }
     putchar('\n');
