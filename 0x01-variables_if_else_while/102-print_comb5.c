@@ -7,29 +7,29 @@
  */
 int main(void)
 {
-int x;
-int y;
-int a;
-int b;
-    for (x = '0'; x <= '8'; x++)
-    {
-        while (y <= '9')
+    int x;
+    int y;
+    int a;
+    int b;
+        for (x = '0'; x <= '9'; x++)
         {
-            putchar(x);
-            putchar(y);
-            y++;
-                    for (a = '0'; a <= '8'; a++)
-                    {
-                        while (b <= '9')
+            while (y <= '9')
+            {
+                putchar(x);
+                putchar(y);
+                y++;
+                        for (a = '0'; a <= '9'; a++)
                         {
-                            putchar(' ');
-                            putchar(a);
-                            putchar(b);
-                            b++;
-                        }
-                    }       
+                            while (b <= '9')
+                            {
+                                putchar(' ');
+                                putchar(a);
+                                putchar(b);
+                                b++;
+                            }
+                        }       
+            }
         }
-    }
-putchar('\n');
-return (0);
+    putchar('\n');
+    return (0);
 }
