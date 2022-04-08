@@ -21,20 +21,20 @@ int main(void)
                             b = '0';
                             while (b <= '9')
                             {
-                                if(y!=b || x!=a)
+                                    if ((x < a) || (x == a && y < b))
                                     {
-                                    putchar(x);
-                                    putchar(y);
-                                    putchar(' ');
-                                    putchar(a);
-                                    putchar(b);
-                                    }
-                                b++;
-                                    if (y != '9' || a != '9' || b != '9')
-                                        {
-                                        putchar(',');
+                                        putchar(x);
+                                        putchar(y);
                                         putchar(' ');
-                                        }
+                                        putchar(a);
+                                        putchar(b);
+                                            if (!(x == '9' && y == '8'))
+                                            {
+                                                putchar(',');
+                                                putchar(' ');
+                                            }
+                                    }
+                            b++
                             }
                         }        
                 y++;
