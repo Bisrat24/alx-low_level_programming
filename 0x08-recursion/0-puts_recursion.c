@@ -5,7 +5,7 @@
  * @s: - String input pointer
  *
  * Return - None.
- * 
+ *
  */
 void _puts_recursion(char *s)
 {
