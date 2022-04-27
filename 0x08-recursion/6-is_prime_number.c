@@ -22,7 +22,7 @@ int is_prime_number(int n)
 int check_prime(int n, int num)
 {
 
-	if (resp >= n && n > 1)
+	if (num >= n && n > 1)
 		return (1);
 	else if (n % num == 0 || n <= 1)
 		return (0);
